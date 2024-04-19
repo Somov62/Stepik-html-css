@@ -24,3 +24,8 @@ figure > figcaption {
 figure {
     float: right;
 }
+
+.table-caption {
+    font-style: italic;
+    caption-side: bottom;
+}
