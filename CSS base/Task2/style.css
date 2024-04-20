@@ -1,0 +1,45 @@
+body {
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    background: #fff;
+    font-size: 32px;
+  }
+  
+  .html-color {
+    /* напиши свой код здесь */
+  }
+  
+  .hex-color {
+    /* напиши свой код здесь */
+  }
+  
+  .rgb-color {
+    /* напиши свой код здесь */
+  }
+  
+  .rgba-color {
+    /* напиши свой код здесь */
+  }
+  
+  .hsl-color {
+    /* напиши свой код здесь */
+  }
+  
+  .hsla-color {
+    /* напиши свой код здесь */
+  }
+  
+  .image {
+    /* напиши свой код здесь */
+  }
