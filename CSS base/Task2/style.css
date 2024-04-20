@@ -3,9 +3,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-family: sans-serif;
-  }
-  
-  .block {
+}
+
+.block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,32 +14,33 @@ body {
     margin: 16px;
     background: #fff;
     font-size: 32px;
-  }
-  
-  .html-color {
-    /* напиши свой код здесь */
-  }
-  
-  .hex-color {
-    /* напиши свой код здесь */
-  }
-  
-  .rgb-color {
-    /* напиши свой код здесь */
-  }
-  
-  .rgba-color {
-    /* напиши свой код здесь */
-  }
-  
-  .hsl-color {
-    /* напиши свой код здесь */
-  }
-  
-  .hsla-color {
-    /* напиши свой код здесь */
-  }
-  
-  .image {
-    /* напиши свой код здесь */
-  }
+}
+
+.html-color {
+    background-color: yellow;
+}
+
+.hex-color {
+    background-color: #3aebca;
+}
+
+.rgb-color {
+    background-color: rgb(72, 0, 20);
+}
+
+.rgba-color {
+    background-color: rgba(72, 0, 20, 50%);
+}
+
+.hsl-color {
+    background-color: hsl(354, 100%, 50%);
+}
+
+.hsla-color {
+    background-color: hsla(354, 100%, 50%, 50%);
+}
+
+.image {
+    background: url('http://klublady.ru/uploads/posts/2022-02/1644797930_6-klublady-ru-p-chashka-kakao-s-marshmellou-foto-6.jpg');
+    background-size: cover;
+}
