@@ -1,0 +1,13 @@
+.root {
+    width: 1219px;
+}
+
+.header {
+    background-color: #007765;
+    padding: 20px 55px;
+}
+
+.logo {
+    margin: 0px;
+    overflow: hidden;
+}
