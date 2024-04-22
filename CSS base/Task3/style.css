@@ -1,11 +1,12 @@
 .post {
-    /* пиши код здесь */
+    margin: 20px auto;
+    width: 550px;
   }
   
   .post__header {
-    /* пиши код здесь */
+    padding: 15px, 20px, 0px, 20px;
   }
   
   .post__content {
-    /* пиши код здесь */
+    padding: 20px, 20px, 0px, 20px;
   }
