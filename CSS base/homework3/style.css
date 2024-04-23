@@ -5,9 +5,5 @@
 .header {
     background-color: #007765;
     padding: 20px 55px;
-}
-
-.logo {
-    margin: 0px;
-    overflow: hidden;
+    line-height: 0px;
 }
