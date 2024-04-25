@@ -6,4 +6,12 @@
     background-color: #007765;
     padding: 20px 55px;
     line-height: 0px;
+    
+}
+
+.menu {
+    background-color: #f00;
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
 }
