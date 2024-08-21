@@ -1,0 +1,156 @@
+body {
+    margin: 0px auto;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/*#region header*/
+#section_header {
+    background-color: #007765;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#section_header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 55px;
+}
+
+nav {
+    color: white;
+    font-size: 24px;
+}
+nav > a {
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+}
+/*#endregion */
+
+p {
+    font-size: 32px;
+    line-height: 37.5px;
+}
+
+section > div {
+    padding: 48px 55px;
+    width: 1219px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_title_container {
+    text-align: center;
+    span {
+        font-size: 64px;
+        line-height: 75px;
+        color: #007765;
+        font-weight: 600;
+    }
+}
+
+#section_1 {
+    background: url("Images/jumbotron.png") center center / cover no-repeat;
+    height: 403px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+#section_1_title_span {
+    color: white;
+    font-size: 72px;
+}
+
+#section_3 {
+    background: url("Images/hero.png") center center / cover no-repeat;
+    height: 483px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_3_title {
+    color: white;
+    line-height: 56.25px;
+    font-size: 48px;
+    width: 893px;
+    font-style: italic;
+    text-align: center;
+}
+
+#section_4_logo {
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 48px;
+}
+
+/*#region Секция 5 - команда*/
+#section_5 {
+    background-color: #eee;
+}
+
+#section_5_employee_cards_container {
+    display: inline-grid;
+    margin: 20px 0px;
+    grid-template-columns: auto auto auto;
+}
+
+.section_5_empoloyee_card {
+    text-align: center;
+    width: 350px;
+    margin: 30px 15px;
+    * {
+        display: block;
+    }
+
+    img {
+        width: 168px;
+        height: 168px;
+        margin: 0px auto 12px auto;
+    }
+}
+
+.section_5_employee_card_name {
+    font-size: 24px;
+    color: #007765;
+    line-height: 28.13px;
+    font-weight: 600;
+}
+
+.section_5_employee_card_role {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 21.09px;
+}
+/*#endregion */
+
+/*#region Футер*/
+footer {
+    height: 176px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    span {
+        color: #fff;
+        font-size: 18px;
+        line-height: 21.09px;
+    }
+}
+/*#endregion */
